@@ -26,7 +26,7 @@ Beecrowd provides programming exercises and an online judging system that evalua
 
 Students can use the platform to practice programming, test their understanding of fundamental concepts, and participate in programming contests.
 
-**Official Website:** https://www.beecrowd.com.br/
+**Official Website:** https://beecrowd.com/
 
 ## Topics Covered
 
