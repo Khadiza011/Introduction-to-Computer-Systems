@@ -20,8 +20,7 @@ This repository contains all of my Introduction to Computer Systems (ICS) course
 - Basic Problem Solving
 - Real-Life Problem Solving
 - Beecrowd Practice Problems
-- Class Tests and Assignments
-
+- 
 ## Language
 
 - C
