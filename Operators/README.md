@@ -72,7 +72,7 @@ Logical operators combine or reverse conditions.
 | Operator | Name | Example |
 |---|---|---|
 | `&&` | Logical AND | `a > 0 && b > 0` |
-| `||` | Logical OR | `a > 0 || b > 0` |
+| `||` | Logical AND | `a > 0 || b > 0` |
 | `!` | Logical NOT | `!(a > 0)` |
 
 **Key concepts:**
