@@ -67,53 +67,6 @@ A `default` case is optional, but including one often makes a program more user-
 
 A nested `switch` statement is a `switch` statement placed inside another `switch` statement. It can be used when one selection depends on the outcome of another selection.
 
-**Filename:** `NestedSwitchCase.c`
-
-```c
-#include <stdio.h>
-
-int main()
-{
-    int category, item;
-
-    printf("1. Drinks\n");
-    printf("2. Snacks\n");
-    printf("Enter category: ");
-    scanf("%d", &category);
-
-    switch (category)
-    {
-        case 1:
-            printf("1. Tea\n");
-            printf("2. Coffee\n");
-            printf("Enter item: ");
-            scanf("%d", &item);
-
-            switch (item)
-            {
-                case 1:
-                    printf("You selected Tea.\n");
-                    break;
-
-                case 2:
-                    printf("You selected Coffee.\n");
-                    break;
-
-                default:
-                    printf("Invalid drink selection.\n");
-            }
-            break;
-
-        case 2:
-            printf("Snacks selected.\n");
-            break;
-
-        default:
-            printf("Invalid category.\n");
-    }
-
-    return 0;
-}
 ```
 
 ### 7. Switch-Case vs. If-Else
