@@ -67,8 +67,6 @@ A `default` case is optional, but including one often makes a program more user-
 
 A nested `switch` statement is a `switch` statement placed inside another `switch` statement. It can be used when one selection depends on the outcome of another selection.
 
-```
-
 ### 7. Switch-Case vs. If-Else
 
 | Feature | `switch-case` | `if-else` |
