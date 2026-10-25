@@ -29,22 +29,6 @@ This repository contains all of my Introduction to Computer Systems (ICS) course
 
 This repository is maintained to organize all ICS course materials, practice C programming, improve problem-solving skills, and track my learning progress throughout the course.
 
-## Repository Structure
-
-```text
-ICS/
-├── Basic_Programs/
-├── Computer_Systems/
-├── Algorithms_and_Flowcharts/
-├── Operators/
-├── Conditional_Statements/
-├── Switch_Case/
-├── Loops/
-├── Problem_Solving/
-├── Beecrowd_Problems/
-├── Assignments/
-└── README.md
-```
 
 ## Goal
 
