@@ -1,11 +1,5 @@
 # Evaluate a Floating-Point Expression
 
-**Course:** Introduction to Computer Systems (ICS)  
-**Language:** C  
-**Difficulty:** Beginner
-
-## Exam Question
-
 Write a C program that declares four floating-point variables `a`, `b`, `c`, and `d`, initializes them to 2.3, 5.8, 1.1, and 3.5 respectively, and evaluates `(a + b - c) * d - a / d`.
 
 ## Solving Approach
@@ -22,27 +16,6 @@ Write a C program that declares four floating-point variables `a`, `b`, `c`, and
 3. Calculate the expression and store the result.
 4. Display the result.
 5. Stop.
-
-## C Solution
-
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    double a = 2.3;
-    double b = 5.8;
-    double c = 1.1;
-    double d = 3.5;
-
-    double result = (a + b - c) * d - a / d;
-
-    printf("(%.1f + %.1f - %.1f) * %.1f - %.1f / %.1f = %.6f\n",
-           a, b, c, d, a, d, result);
-
-    return 0;
-}
-```
 
 ## Sample Input
 
@@ -82,11 +55,3 @@ Run on Windows:
 ```bash
 EvaluateFloatingPointExpression.exe
 ```
-
-## Exam Tip
-
-Identify the input, required output, and operators needed before writing the code. Test the program with the sample values and check edge cases such as invalid input or division by zero.
-
----
-
-*Part of the ICS C Programming repository.*
