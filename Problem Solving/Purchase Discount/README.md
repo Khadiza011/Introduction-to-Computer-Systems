@@ -1,4 +1,4 @@
-# PurchaseDiscount 
+# Purchase Discount 
 
 Write a program that calculates a customer's discount category based on total purchase amount: 
 no discount below 50; 
