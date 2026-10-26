@@ -1,11 +1,5 @@
 # Calculate Terminal Velocity
 
-**Course:** Introduction to Computer Systems (ICS)  
-**Language:** C  
-**Difficulty:** Beginner
-
-## Exam Question
-
 Write a C program to calculate the final velocity of a moving body using the equation `v = u + a * t`. Read the initial velocity `u`, acceleration `a`, and time `t` in that order.
 
 ## Solving Approach
@@ -21,30 +15,6 @@ Write a C program to calculate the final velocity of a moving body using the equ
 3. Calculate `v = u + a * t`.
 4. Display `v`.
 5. Stop.
-
-## C Solution
-
-```c
-#include <stdio.h>
-
-int main(void)
-{
-    int u, a, t, v;
-
-    printf("Enter initial velocity, acceleration, and time: ");
-    if (scanf("%d %d %d", &u, &a, &t) != 3)
-    {
-        printf("Invalid input.\n");
-        return 1;
-    }
-
-    v = u + a * t;
-
-    printf("v = %d\n", v);
-
-    return 0;
-}
-```
 
 ## Sample Input
 
@@ -83,11 +53,3 @@ Run on Windows:
 ```text
 TerminalVelocity.exe
 ```
-
-## Exam Tip
-
-Write down the formula first, choose data types that preserve the required precision, and test the program using the values provided in the question.
-
----
-
-*Part of the ICS C Programming repository.*
