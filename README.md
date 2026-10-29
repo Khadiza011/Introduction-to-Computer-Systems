@@ -34,11 +34,10 @@ Its main purposes are to:
 - Nested `switch-case`
 - Loops and Iterative Approaches
 - `for` and `while` Loops
-- Basic Problem Solving
-- Real-Life Problem Solving
-- Beecrowd Practice Problems
+- Problem Solving
   
 This documentation approach makes each problem easier to understand, review, and revisit during exam preparation.
+
 ## 💻 Language and Development Tools
 
 | Component | Technology |
